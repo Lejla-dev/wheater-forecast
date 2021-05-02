@@ -115,4 +115,4 @@ tempFahrenheit.addEventListener("click", showFahrenheit);
 
 let celciusTemperature = null;
 
-searchCity("Heilbronn");
+searchCity("Paris");

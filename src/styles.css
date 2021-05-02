@@ -1,6 +1,6 @@
 body {
-  color: #5b6275;
-  font-family: "Lato", sans-serif;
+  color: #2459eb;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -10,11 +10,11 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #f96d90;
+  color: #7696dd;
 }
 
 a:hover {
-  color: #d6224f;
+  color: #7696dd;
 }
 
 .container {
@@ -24,15 +24,11 @@ a:hover {
 
 .card {
   padding: 50px;
-  border-radius: 50px;
+  border-radius: 90px;
   border: 0;
-  background-image: linear-gradient(
-    to top,
-    #f3e7e9 0%,
-    #e3eeff 99%,
-    #e3eeff 100%
-  );
-  box-shadow: 4px 4px 10px 1px rgb(0 0 0 / 15%);
+  color: #476add;
+  background-color: #f8dcef;
+  box-shadow: 4px 4px 10px 1px rgb(0 0 0 / 45%);
 }
 
 .form-group {
@@ -53,15 +49,17 @@ a:hover {
 .btn {
   border: 0;
   margin-top: 3px;
+  background-color: #2459eb;
 }
 
 .temp-current p,
 .temp-future p {
-  color: #ff3366;
+  color: #7696dd;
 }
 
 .temp-current p {
-  font-size: 150px;
+  font-size: 90px;
+  text-align: center;
 }
 
 .temp-future p {
